@@ -1,1 +1,1 @@
-export const API_URL = "https://cashew-store-server.onrender.com";
+export const API_URL = "/api";

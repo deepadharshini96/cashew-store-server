@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import ProductCard from '../components/ProductCard';
-
+import { API_URL } from '../config';
 import theme from '../theme';
 
 function Store({ onAddToCart, onPlaceOrder, onToggleWishlist, wishlist }) {
@@ -8,7 +8,7 @@ function Store({ onAddToCart, onPlaceOrder, onToggleWishlist, wishlist }) {
   const [products, setProducts] = useState([]);
 
 useEffect(() => {
-    fetch('https://cashew-store-server.onrender.com/api/products')
+    fetch(`${API_URL}/products`)
     .then(res => res.json())
     .then(data => setProducts(data))
     .catch(err => console.error('Error fetching products:', err));

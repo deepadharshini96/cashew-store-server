@@ -1,0 +1,14 @@
+const products = [
+  { id: 1, name: "Roasted Cashew", price: 250, originalPrice: 300, rating: 4.5, image: "https://images.unsplash.com/photo-1573851552153-816785fecf4a?w=400", description: "Crunchy roasted cashews, lightly salted.", reviews: [{ name: "Priya", stars: 5, comment: "Very fresh and tasty!" }, { name: "Arun", stars: 4, comment: "Good quality, fast delivery." }] },
+  { id: 2, name: "Raw Cashew", price: 220, rating: 4.0, image: "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=400", description: "Premium quality raw cashews, unroasted.", reviews: [{ name: "Kavya", stars: 4, comment: "Good raw cashews, great for cooking." }] },
+  { id: 3, name: "Honey Glazed Cashew", price: 300, originalPrice: 350, rating: 4.8, image: "https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=400", description: "Sweet honey-coated cashews, a perfect snack.", reviews: [{ name: "Sanjay", stars: 5, comment: "Amazing taste, kids loved it!" }] },
+  { id: 4, name: "Spicy Masala Cashew", price: 280, rating: 4.2, image: "https://images.unsplash.com/photo-1563412885-e335dc95e0c1?w=400", description: "Spiced cashews with a fiery kick.", reviews: [] },
+  { id: 5, name: "Salted Cashew", price: 240, originalPrice: 260, rating: 4.0, image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?w=400", description: "Classic lightly salted cashews.", reviews: [] },
+  { id: 6, name: "Chocolate Coated Cashew", price: 350, rating: 4.6, image: "https://images.unsplash.com/photo-1548907040-4baa419a4cf9?w=400", description: "Cashews dipped in rich chocolate.", reviews: [{ name: "Meera", stars: 5, comment: "Perfect gift item." }] },
+  { id: 7, name: "Garlic Cashew", price: 270, rating: 3.8, image: "https://images.unsplash.com/photo-1600189261867-30e5ffe7b8da?w=400", description: "Savory garlic-flavored roasted cashews.", reviews: [] },
+  { id: 8, name: "Pepper Cashew", price: 260, originalPrice: 290, rating: 4.1, image: "https://images.unsplash.com/photo-1615484477778-ca3b77940c25?w=400", description: "Cashews tossed with cracked black pepper.", reviews: [] },
+  { id: 9, name: "Broken Cashew Pieces", price: 180, rating: 3.5, image: "https://images.unsplash.com/photo-1615485500834-bc10199bc727?w=400", description: "Affordable broken cashew bits, great for cooking.", reviews: [] },
+  { id: 10, name: "Organic Cashew", price: 320, rating: 4.7, image: "https://images.unsplash.com/photo-1567892737950-30c4db37cd08?w=400", description: "100% organic, chemical-free cashews.", reviews: [{ name: "Ramesh", stars: 5, comment: "100% organic as promised." }] },
+];
+
+export default products;

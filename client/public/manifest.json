@@ -1,0 +1,20 @@
+{
+  "short_name": "MK Cashews",
+  "name": "MK Cashews Store",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/store",
+  "display": "standalone",
+  "theme_color": "#5b2c6f",
+  "background_color": "#ffffff"
+}
